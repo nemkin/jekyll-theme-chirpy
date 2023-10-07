@@ -14,41 +14,41 @@ tabs:
   categories: Kategóriák
   tags: Címkék
   archives: Archívum
-  about: Rólam
+  about: Rólunk
 
 # the text displayed in the search bar & search results
 search:
   hint: keresés
   cancel: Mégse
-  no_results: Oops! Nincs találat a keresésre.
+  no_results: Hoppá! A keresett szöveg nem található az oldalon.
 
 panel:
   lastmod: Legutóbb frissítve
-  trending_tags: Népszerű Címkék
-  toc: Tartalom
+  trending_tags: Népszerű címkék
+  toc: Tartalomjegyzék
   links: Blog linkek
 
-meta: Készítve :PLATFORM motorral :THEME témával
+meta: A weboldal :THEME segítségével :PLATFORM motorban készült
 
 not_found:
-  statment: Sajnáljuk, az URL-t rosszul helyeztük el, vagy valami nem létezőre mutat.
+  statment: A keresett URL nem található.
 
 notification:
-  update_found: Elérhető a tartalom új verziója.
+  update_found: A tartalom új verziója elérhető!
   update: Frissítés
 
 # ----- Posts related labels -----
 
 post:
-  written_by: Szerző
-  posted: Létrehozva
-  updated: Frissítve
+  written_by: 'Szerző:'
+  posted: 'Létrehozva:'
+  updated: 'Frissítve:'
   words: szó
   pageview_measure: látogató
   read_time:
     unit: perc
     prompt: elolvasni
-  relate_posts: További olvasnivaló
+  relate_posts: További cikkek
   share: Megosztás
   button:
     next: Újabb
@@ -58,6 +58,16 @@ post:
     share_link:
       title: Link másolása
       succeed: Link sikeresen másolva!
+
+# Date time format.
+# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: "%F"
+    dayjs: "YYYY-MM-DD"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
 
 # categories page
 categories:
