@@ -67,7 +67,7 @@
           {%- endcapture -%}
         {% when 'email' %}
           {%- capture url -%}
-            javascript:location.href = 'mailto:site.social.email'
+            javascript:location.href = "mailto:{{ site.social.email }}"
           {%- endcapture -%}
         {% when 'rss' %}
           {% assign url = '/feed.xml' | relative_url %}
