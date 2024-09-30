@@ -39,7 +39,7 @@
   {{ seo_tags }}
 
   <title>
-    {%- unless page.layout == 'home' -%}
+    {%- unless page.is_home -%}
       {{ page.title | append: ' | ' }}
     {%- endunless -%}
     {{ site.title }}
