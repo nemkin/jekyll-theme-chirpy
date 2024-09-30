@@ -39,7 +39,7 @@
           {% elsif page.layout == 'post' %}
             <span>
               <a href="{{ '/news' | relative_url }}">
-                {{ site.data.locales[include.lang].tabs[news] | default: page.title }}
+                {{ site.data.locales[include.lang].tabs['news'] | default: page.title }}
               </a>
             </span>
           {% endif %}
