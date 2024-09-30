@@ -11,6 +11,7 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Kezdőlap
+  news: Hírek
   categories: Kategóriák
   tags: Címkék
   archives: Archívum

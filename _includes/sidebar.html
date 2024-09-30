@@ -33,6 +33,13 @@
           <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
         </a>
       </li>
+      <!-- news -->
+      <li class="nav-item{% if page.layout == 'news' %}{{ " active" }}{% endif %}">
+        <a href="{{ '/news' | relative_url }}" class="nav-link">
+          <i class="fa-fw fas fa-newspaper"></i>
+          <span>{{ site.data.locales[include.lang].tabs.news | upcase }}</span>
+        </a>
+      </li>
       <!-- the real tabs -->
       {% for tab in site.tabs %}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
