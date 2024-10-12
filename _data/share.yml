@@ -13,7 +13,3 @@ platforms:
   - type: Linkedin
     icon: "fa-brands fa-linkedin"
     link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
-
-  - type: Telegram
-    icon: "fa-brands fa-telegram"
-    link: "https://t.me/share/url?url=URL&text=TITLE"
