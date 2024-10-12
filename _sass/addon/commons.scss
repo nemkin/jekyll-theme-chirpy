@@ -815,9 +815,8 @@ $btn-mb: 0.5rem;
   .sidebar-bottom {
     padding-left: 2rem;
     padding-right: 1rem;
-    margin-bottom: 1.5rem;
 
-    $btn-size: 1.75rem;
+    $btn-size: 1.25rem;
 
     %button {
       width: $btn-size;
@@ -1520,7 +1519,6 @@ search {
 
     .sidebar-bottom {
       padding-left: 2.75rem;
-      margin-bottom: 1.75rem;
 
       a:not(:last-child) {
         margin-right: $sb-btn-gap-lg;
