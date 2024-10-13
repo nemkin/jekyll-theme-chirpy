@@ -760,6 +760,7 @@ $btn-mb: 0.5rem;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    margin-bottom: 1rem;
   }
 
   ul {
@@ -812,8 +813,7 @@ $btn-mb: 0.5rem;
     }
   }
 
-  .sidebar-bottom {
-    padding-top: 1rem;
+  .sidebar-social {
     padding-bottom: 1rem;
 
     $btn-size: 1.5rem;
@@ -870,7 +870,7 @@ $btn-mb: 0.5rem;
       border-radius: 50%;
       margin-bottom: $btn-mb;
     }
-  } /* .sidebar-bottom */
+  } /* .sidebar-social */
 } /* #sidebar */
 
 @media (hover: hover) {
@@ -1517,7 +1517,7 @@ search {
       }
     }
 
-    .sidebar-bottom {
+    .sidebar-social {
 
       a:not(:last-child) {
         margin-right: $sb-btn-gap-lg;
